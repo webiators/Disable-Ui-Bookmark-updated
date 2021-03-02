@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Webiators
+ * @package    Webiators_DisableUiBookmark
+ * @author     Webiators Team
+ * @copyright  Copyright (c) Webiators Technologies. ( https://webiators.com ).
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="admin_user_authenticate_after">
+        <observer name="clear_ui_bookmarks" instance="Webiators\DisableUiBookmark\Observer\ClearUiBookmarks" />
+    </event>
+</config>

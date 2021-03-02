@@ -1,0 +1,26 @@
+{
+    "name": "webiators/disableuibookmark",
+    "description": "Webiators Disable Ui Bookmark.",
+    "require": {},
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Webiators Technologies Private Limited",
+            "email": "support@webiators.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Webiators\\DisableUiBookmark\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
